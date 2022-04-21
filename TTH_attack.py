@@ -371,10 +371,6 @@ def get_images2concept_attack(opt, config):
     benign_vis_index = np.array(benign_vis_index[0:20])  # ad index
     target_concepts = "jacket dress floor female motorcycle policeman cow waiter swimming reading run dancing floating smiling climbing feeding blue front little green yellow pink navy maroon"
     target_concepts = [each for each in target_concepts.strip().split()]
-    if opt.overwrite == 0:
-        whether_plt = False
-        target_concepts = "jacket dress floor female cow run dancing floating smiling climbing feeding blue front little green yellow pink"
-        target_concepts = [each for each in target_concepts.strip().split()]
 
     for target_concept in target_concepts:
         try:

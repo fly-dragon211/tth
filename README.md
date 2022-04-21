@@ -2,7 +2,7 @@
 
 
 
-Source code of our TTH paper:  [Targeted Trojan-Horse Attacks on Language-based Image Retrieval](https://arxiv.org/abs/2202.03861). This project uses [CLIP](https://github.com/openai/CLIP) to as Attack model.
+Source code of our TTH paper:  [Targeted Trojan-Horse Attacks on Language-based Image Retrieval](https://arxiv.org/abs/2202.03861). This project implements TTH for [CLIP](https://github.com/openai/CLIP)  on Flickr30k.
 
 ## Environment
 
