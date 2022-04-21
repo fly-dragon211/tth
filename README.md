@@ -11,7 +11,7 @@ We used Anaconda to setup a deep learning workspace that supports PyTorch. Run t
 ```sh
 conda create -n tth python==3.8
 conda activate tth
-git clone https://github.com/li-xirong/sea.git
+git clone https://github.com/fly-dragon211/tth.git
 cd tth
 pip install -r requirements.txt
 ```
@@ -44,10 +44,6 @@ You need to download Flickr30k dataset and move the image files to `~/VisualSear
 ```
 
 
-
-## A demo
-
-Coming soon.
 
 
 
