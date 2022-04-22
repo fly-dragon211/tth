@@ -30,6 +30,17 @@ class config(BaseConfig.config):
         'size': 512, 'transform_batch_norm': True, 'transform_dropout': 0.0,
         'transform_activation': 'tanh', 'frozen': False,
     }
+    # ********************************萌萌哒分界线******************
+    # Attack
+    attack_scales = [1024]  #  "[1024], [300,400,500,600,700,800,900,1024], [300,350,400,450,500,550,600,650,700,750,800,850,900,950,1024]
+    attack_iters = 300
+    attack_lr = 0.01
+    attack_lam = 1
+    attack_sigma_blur = 0.0  # no blur if 0.0
+    attack_mode = 'global'  # "global | tensor | hist"
+    attack_variant = ""
+    patch_ratio = 0.35
+    only_keyword = False
 
     # For Attention params
     def adjust_parm(self, value):
