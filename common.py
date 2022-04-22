@@ -24,3 +24,5 @@ logging.basicConfig(
 
 torch.multiprocessing.set_sharing_strategy('file_system')  # 多线程
 
+class No:
+    pass

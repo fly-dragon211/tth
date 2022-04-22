@@ -295,6 +295,9 @@ def get_images2concept_attack(opt, config):
             logging.info(resume_file + '\n not exists.')
             sys.exit(0)
         checkpoint = torch.load(resume_file, map_location='cpu')
+        # checkpoint.pop('config'); checkpoint.pop('opt')
+        # torch.save( checkpoint,
+        #     resume_file.replace("model_best.pth", "model_best_small.pth"))
         best_perf = checkpoint['best_perf']
         epoch = checkpoint['epoch']
         model.load_state_dict(checkpoint['model'], strict=False)
@@ -589,7 +592,7 @@ if __name__ == '__main__':
         print()
         # CLIP
         sys.argv = "TTH_attack.py --device 1 flickr30ktest_add_ad " \
-                   "None " \
+                   "/home/hf/hf_code/VisualSearch/flickr30ktrain/w2vvpp_train/flickr30kval/ICDE.CLIPEnd2End_adjust/runs_1_0_1_0_0_seed_2/model_best.pth.tar " \
                    "msrvtt10ktrain/msrvtt10kval/test " \
                    "--attack_trainData flickr30ktrain " \
                    "--config_name TTH.CLIPEnd2End_adjust " \
