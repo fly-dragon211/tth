@@ -59,19 +59,7 @@ Readers can move the model files to `~/VisualSearch/flickr30k`
 
  R10 of LBIR system without/with TTH images w.r.t. specific queries. LBIR setup: CLIP + Flickr30ktest. Adversarial patches are learned with Flickr30ktrain as training data. The clear drop of R10 for truley relevant images and the clear increase of R10 for novel images show the success of the proposed method for making TTH attacks
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-cly1{text-align:left;vertical-align:middle}
-.tg .tg-mwxe{text-align:right;vertical-align:middle}
-.tg .tg-wa1i{font-weight:bold;text-align:center;vertical-align:middle}
-.tg .tg-sn55{font-style:italic;font-weight:bold;text-align:left;vertical-align:middle}
-.tg .tg-yla0{font-weight:bold;text-align:left;vertical-align:middle}
-.tg .tg-zt7h{font-weight:bold;text-align:right;vertical-align:middle}
-</style>
+
 <table class="tg">
 <thead>
   <tr>
@@ -292,6 +280,7 @@ Readers can move the model files to `~/VisualSearch/flickr30k`
 </tbody>
 </table>
 
+
 **CLIP-*flickr***
 
 ```shell
@@ -308,17 +297,7 @@ Readers can move the model files to `~/VisualSearch/flickr30k`
 
 
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-cly1{text-align:left;vertical-align:middle}
-.tg .tg-wa1i{font-weight:bold;text-align:center;vertical-align:middle}
-.tg .tg-sn55{font-style:italic;font-weight:bold;text-align:left;vertical-align:middle}
-.tg .tg-yla0{font-weight:bold;text-align:left;vertical-align:middle}
-</style>
+
 <table class="tg">
 <thead>
   <tr>
@@ -538,6 +517,7 @@ Readers can move the model files to `~/VisualSearch/flickr30k`
   </tr>
 </tbody>
 </table>
+
 
 
 
