@@ -1,6 +1,6 @@
-# Targeted Trojan-Horse Attacks on Language-based Image Retrieval
+# Towards Making a Trojan-horse Attack on Text-to-Image Retrieval
 
-Source code of our TTH paper:  [Targeted Trojan-Horse Attacks on Language-based Image Retrieval](https://arxiv.org/abs/2202.03861). This project implements TTH for [CLIP](https://github.com/openai/CLIP)  and CLIP-flickr on Flickr30k.
+Source code of our ICASSP2023 paper:  [Towards Making a Trojan-horse Attack on Text-to-Image Retrieval](https://arxiv.org/abs/2202.03861). This project implements Trojan-horse Attack for [CLIP](https://github.com/openai/CLIP)  and CLIP-flickr on Flickr30k.
 
 ![image-20220422124016610](image/image-20220422124016610.png)
 
@@ -41,7 +41,7 @@ Baidu Yun: https://pan.baidu.com/s/1n8Sa7Fr9-G9KbZ3-FxS1_g?pwd=sbsv 提取码: s
 
 Readers can move the model files to `~/VisualSearch/flickr30k`
 
-## TTH attack
+## Trojan-horse Attack
 
 ![image-20220521094147787](image/image-20220521094147787.png)
 
@@ -57,7 +57,7 @@ Readers can move the model files to `~/VisualSearch/flickr30k`
 
 
 
- R10 of LBIR system without/with TTH images w.r.t. specific queries. LBIR setup: CLIP + Flickr30ktest. Adversarial patches are learned with Flickr30ktrain as training data. The clear drop of R10 for truley relevant images and the clear increase of R10 for novel images show the success of the proposed method for making TTH attacks
+ R10 of LBIR system without/with Trojan-horse images w.r.t. specific queries. LBIR setup: CLIP + Flickr30ktest. Adversarial patches are learned with Flickr30ktrain as training data. The clear drop of R10 for truley relevant images and the clear increase of R10 for novel images show the success of the proposed method for making Trojan-horse attacks
 
 
 <table class="tg">
@@ -527,10 +527,10 @@ Readers can move the model files to `~/VisualSearch/flickr30k`
 
 ```
 @article{hu2022targeted,
-  title={Targeted Trojan-Horse Attacks on Language-based Image Retrieval},
+  title={Towards Making a Trojan-horse Attack on Text-to-Image Retrieval},
   author={Hu, Fan and Chen, Aozhu and Li, Xirong},
-  journal={arXiv},
-  year={2022}
+  booktitle = {ICASSP},
+  year={2023}
 }
 ```
 
